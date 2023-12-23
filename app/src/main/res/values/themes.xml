@@ -6,4 +6,18 @@
     </style>
 
     <style name="Theme.Practical9_RoomPersistence" parent="Base.Theme.Practical9_RoomPersistence" />
+    
+    <style name="note_title">
+        <item name="android:layout_width"> match_parent</item>
+        <item name="android:layout_marginBottom">8dp</item>
+
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:background">#CDDC39</item>
+        
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+    </style>
+
+
+
+
 </resources>
