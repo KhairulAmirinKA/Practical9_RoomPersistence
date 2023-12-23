@@ -34,13 +34,13 @@ android {
 dependencies {
 
     //room components
-    implementation("androidx.room:room-runtime:$rootProject.roomVersion")
-    annotationProcessor("androidx.room:room-compiler:$rootProject.roomVersion")
-    androidTestImplementation("androidx.room:room-testing:$rootProject.roomVersion")
+    implementation("androidx.room:room-runtime:2.6.1")
+    annotationProcessor("androidx.room:room-compiler:2.6.1")
+    androidTestImplementation("androidx.room:room-testing:2.6.1")
 
     //lifecycle components
-    implementation("androidx.lifecycle:lifecycle-viewmodel:$rootProject.lifecycleVersion")
-    implementation("androidx.lifecycle:lifecycle-livedata:$rootProject.lifecycleVersion")
+    implementation("androidx.lifecycle:lifecycle-viewmodel:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-livedata:2.6.2")
     implementation("androidx.lifecycle:lifecycle-common-java8:2.6.2")
 
 
@@ -52,5 +52,8 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
 
-
+ext{
+    set("roomVersion","2.6.2")
+    set("lifecycleVersion", "2.3.1")
+}
 
