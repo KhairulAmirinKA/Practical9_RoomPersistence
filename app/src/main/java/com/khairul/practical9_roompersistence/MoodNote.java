@@ -41,7 +41,7 @@ public class MoodNote {
         return mMood;
     }
 
-    public boolean ismDayNight() {
+    public boolean getmDayNight() {
         return mDayNight;
     }
 }
